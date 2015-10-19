@@ -1,0 +1,32 @@
+{
+    "id": "-1",
+    "name": "JEDataCollector #1",
+    "jevisclass": "JEDataCollector",
+    "children": [
+        {
+            "id": "-1",
+            "name": "Data Source Driver Directory",
+            "jevisclass": "Data Source Driver Directory",
+            "children": [
+                {
+                    "name": "MySQL Driver",
+                    "jevisclass": "Data Source Driver",
+                    "attributes": [
+                        {
+                            "name": "JEVis Class",
+                            "lastvalue": "MySQL Server"
+                        },
+                        {
+                            "name": "Main Class",
+                            "lastvalue": "org.jevis.sqldatasource.MySQLDataSource"
+                        },
+                        {
+                            "name": "Source File",
+                            "lastvalue": "$(FILE)target/MySQLDataSource-1.0-SNAPSHOT-with-SQLDriverAbstract.jar"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
