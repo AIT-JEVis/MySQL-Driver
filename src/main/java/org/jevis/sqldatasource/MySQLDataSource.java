@@ -31,8 +31,9 @@ import org.jevis.sqldatasource.SQLDriverAbstract;
  * The structure in JEVis for a single data point must be at least:
  * SQL Server
  * - SQL Channel Directory
- *   - Data Point Directory (Optional)
- *     - Data Point
+ *   - SQL Channel
+ *     - Data Point Directory
+ *       - Data Point
  * 
  * @author NeroBurner
  */
